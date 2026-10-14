@@ -173,6 +173,17 @@ To check code quality and rules with Oxlint:
 npm run lint
 ```
 
+### 5. Running Tests
+To run code verification tests:
+
+```bash
+npm test
+```
+
+### 6. Continuous Integration & Deployment (CI/CD)
+- **Jenkins Pipeline**: Automated build, test, and artifact archiving configured in [`Jenkinsfile`](./Jenkinsfile). For full setup and GitHub connection instructions, see [`JENKINS_SETUP.md`](./JENKINS_SETUP.md).
+- **GitHub Actions**: Automated GitHub Pages deployment pipeline configured in [`.github/workflows/deploy.yaml`](./.github/workflows/deploy.yaml).
+
 ---
 
 ## 📖 Usage Guide
